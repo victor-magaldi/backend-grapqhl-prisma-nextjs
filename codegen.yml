@@ -1,5 +1,5 @@
 overwrite: true
-schema: "./graphql/typeDef.ts"
+schema: "./graphql/typeDefs.ts"
 documents: null
 generates:
   ./graphql/resolvers-types.ts:
