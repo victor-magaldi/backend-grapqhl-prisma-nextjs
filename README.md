@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Para criar o banco com Prisma
+
+```bash
+ yarn prisma db push
+```
+
+esse comando enviará suas informações do schema.prisma observando os seus models, E criará as tabelas de acordo com seus Models.
+
 ## Getting Started
 
 First, run the development server:
